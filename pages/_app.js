@@ -31,7 +31,9 @@ class MyApp extends App {
     const isServer = !process.browser
     this.mobxStore = isServer
       ? props.initialMobxState
-      : initializeStore(props.initialMobxState)
+      : initializeStore({
+        /**Your initial props here */
+      })
   }
 
   componentDidMount() {

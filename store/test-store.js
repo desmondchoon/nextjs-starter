@@ -2,8 +2,10 @@ import {observable, action} from 'mobx'
 
 class TestStore {
   @observable test = "mobx works";
+
+  constructor(props){
+    
+  }
 }
 
-
-const testStore = new TestStore()
-export default testStore
+export default TestStore
