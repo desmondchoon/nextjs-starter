@@ -9,6 +9,7 @@
     "jss": "latest",
     "mobx": "^5.9.4",
     "mobx-react": "^5.4.3",
+    "clsx": "latest",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",
